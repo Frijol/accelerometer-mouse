@@ -1,25 +1,12 @@
 {
-  "name": "accelerometer-mouse",
-  "version": "0.0.0",
-  "description": "(moves animation based on accelerometer input)",
-  "main": "accel.js",
-  "dependencies": {},
-  "devDependencies": {},
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "test": "tessel"
+    "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Frijol/accelerometer-mouse.git"
-  },
-  "keywords": [
-    "tessel",
-    "accelerometer",
-    "cursor"
-  ],
-  "author": "Frijol",
-  "license": "BSD-2-Clause",
-  "bugs": {
-    "url": "https://github.com/Frijol/accelerometer-mouse/issues"
+  "dependencies": {
+    "express": "3.4.4",
+    "jade": "*"
   }
 }
