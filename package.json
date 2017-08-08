@@ -24,7 +24,7 @@
     "url": "https://github.com/Frijol/accelerometer-mouse/issues"
   },
   "dependencies": {
-    "express": "3.4.4",
+    "express": "4.15.4",
     "jade": "*",
     "tessel": "*"
   }
